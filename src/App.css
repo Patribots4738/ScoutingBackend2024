@@ -83,18 +83,9 @@ body {
 }
 
 h1 {
-    font: 'VazirMatn', sans-serif;
-    font-size: 3rem;
-    color: var(--primary-color);
-    border: none !important;
-    width: 100% !important;
-}
-
-h3 {
-    font: 'VazirMatn', sans-serif;
-    font-size: 1.999rem;
-    font-weight: bold;
-    border: none !important;
+    font-size: 4rem;
+    color: gold;
+    width: 100%;
 }
 
 .textbox {
@@ -238,4 +229,10 @@ h3 {
 
 .data-point {
     margin-bottom: 5px;
+}
+
+.Franks-Header {
+    height: 100%;
+    width:100%;
+    color:green;
 }

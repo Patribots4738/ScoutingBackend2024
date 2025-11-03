@@ -7,6 +7,7 @@ import {
 	Route,
 	Link,
 } from "react-router-dom";
+import Home from "./Pages/Home";
 import Rankings from "./Pages/Rankings";
 import RawData from "./Pages/RawData";
 import Search from "./Pages/Search";
@@ -33,6 +34,11 @@ class App extends Component {
 				<Router>
 					<div className="App">
 						<div className="App-header">
+							<Link className="navbar-but" to="/Home">
+								<div className="nav-text">
+									Home
+								</div>
+							</Link>
 							<Link className="navbar-but" to="/Rankings">
 								<div className="nav-text">
 									Rankings
@@ -53,8 +59,8 @@ class App extends Component {
 						<Routes>
 							<Route
 								exact
-								path="/"
-								element={<Rankings />}
+								path="/Home"
+								element={<Home />}
 							></Route>
 							<Route
 								exact
