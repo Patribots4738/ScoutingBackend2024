@@ -135,14 +135,6 @@ export const fetchDataAndProcess = async (fileName) => {
                 teamAverageMap: teamAverageMap,
                 rankingTable: getRankingTable()
             }
-        case "CompareTeams":
-            numTeamMap = convertToTeamMap(numData);
-            teamAverageMap = getTeamAverageMap(includeDead, minQual, maxQual, mean);
-            return {
-                teamAverageMap: teamAverageMap,
-                maxMinOfAverages: getMaxMinOfAverages(),
-            };
-
     }
 };
 
