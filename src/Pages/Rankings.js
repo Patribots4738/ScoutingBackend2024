@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import TreeGraph from "../widgets/TreeGraph";
-import {fetchDataAndProcess, resortColumnsByArray, whitelistDataPoints, whitelistDataPointObjArr} from '../Data.js'
+import {fetchDataAndProcess, whitelistDataPointObjArr} from '../Data.js'
 import "./Tables.css";
 import "./Rankings.css";
 

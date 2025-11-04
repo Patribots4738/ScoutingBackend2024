@@ -240,7 +240,7 @@ function assignScore(match, dataPoints, weightMap) {
     let score = 0;
     for (let i = 0; i < match.length; i++) {
         if (weightMap[dataPoints[i]] === undefined) continue;
-        if (weightMap[dataPoints[i]] == '10' || dataPoints[i] == '8') score += 2;
+        if (weightMap[dataPoints[i]] === '10' || dataPoints[i] === '8') score += 2;
         score += parseFloat(match[i]) * weightMap[dataPoints[i]];
     }
     return score.toFixed(2);

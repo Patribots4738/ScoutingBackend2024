@@ -1,4 +1,3 @@
-import { getTeamData } from "../Data";
 import React, { useEffect, useState } from "react";
 import {fetchDataAndProcess} from '../Data.js'
 import "./Tables.css";

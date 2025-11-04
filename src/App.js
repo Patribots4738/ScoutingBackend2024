@@ -34,7 +34,7 @@ class App extends Component {
 				<Router>
 					<div className="App">
 						<div className="App-header">
-							<Link className="navbar-but" to="/Home">
+							<Link className="home-but" to="/Home">
 								<div className="nav-text">
 									Home
 								</div>
@@ -56,28 +56,28 @@ class App extends Component {
 							</Link>
 						</div>
 						<Settings/>
-						<Routes>
-							<Route
-								exact
-								path="/Home"
-								element={<Home />}
-							></Route>
-							<Route
-								exact
-								path="/Rankings"
-								element={<Rankings />}
-							></Route>
-							<Route
-								exact
-								path="/RawData"
-								element={<RawData />}
-							></Route>
-							<Route
-								exact
-								path="/Search"
-								element={<Search />}
-							></Route>
-						</Routes>
+							<Routes>
+								<Route
+									exact
+									path="/Home"
+									element={<Home />}
+								></Route>
+								<Route
+									exact
+									path="/Rankings"
+									element={<Rankings />}
+								></Route>
+								<Route
+									exact
+									path="/RawData"
+									element={<RawData />}
+								></Route>
+								<Route
+									exact
+									path="/Search"
+									element={<Search />}
+								></Route>
+							</Routes>
 					</div>
 				</Router>
 			</QueryClientProvider>

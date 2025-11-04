@@ -1,7 +1,5 @@
-import { ref, get, getDatabase } from 'firebase/database';
-import firebase from 'firebase/app';
+import { ref, get} from 'firebase/database';
 import 'firebase/database';
-import { data } from '../SampleData';
 import { db } from '../Config';
 
 //Frank's Middle
