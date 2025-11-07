@@ -94,7 +94,8 @@ function Rankings() {
                 <link
                     rel="stylesheet"
                     href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
-                ></link>
+                >
+                </link>
                 <table className="table">
                     <thead className="header">
                         <tr>
@@ -118,7 +119,6 @@ function Rankings() {
                     </tbody>
                 </table>
             </div>
-
         </div>
     );
 }
